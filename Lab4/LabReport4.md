@@ -18,3 +18,9 @@ I copied the `SSH` URL from my forked repo on Github, using `<Ctrl>` `c`, and th
 ![Image](IMG4.png)
 <br>
 I then typed `cd` and `lab7` and pressed `<enter>` to change into the lab7 directory.
+<br>
+### Step 3: Run the tests to demonstrate they fail
+In this step, I typed in `ls` and pressed `<enter>` to display the files in the current directory. Once I found the file that I needed (test.sh), I typed `bash<space>test.sh` and pressed `<enter>` to run the tests within the bash file. The reason I typed `bash` is because `test.sh` essentially is a shortcut to run the java file `ListExamplestests` which has a series of `junit` tests, written to test the correctness of `ListExamples`. <br>
+<br>
+![Image](IMG5.png)
+<br>
