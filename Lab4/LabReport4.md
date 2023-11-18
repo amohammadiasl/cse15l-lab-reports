@@ -55,4 +55,7 @@ Now to delete the 1, I pressed `x`. We learned in class that `x` deletes whateve
 ![image](IMG12.png)
 <br><br> 
 Now that the 1 is deleted, I pressed `i` to go into insert mode.
+<br><br>
 ![image](IMG13.png)
+<br><br>
+Now that we corrected the mistake, we can exit out of vim to finish this step. In order to do so, first we need to press `ESC` to go back into normal mode, then we press `:` and type in `wq` and then press `<enter>`. 
