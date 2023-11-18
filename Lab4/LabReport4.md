@@ -47,4 +47,7 @@ As we see in the image, it found the first occurrence of `index1`. Now, that spe
 <br><br>
 After pressing `n` 9 times, we are on the desired occurrence of `index1`. So far, what he have in this step if `vim ListExamples.java <enter> / i n d e x 1 <enter> n n n n n n n n n` (I separated them by a space to make it easier to read). Now that we are at the desired word, we need to edit the 1 and turn it into a 2. <br>
 Notice that currently, we are on the "i" of `index1`and we need to relocate our cursor to the 1. We learned in clas that we can use `h`,`j`,`k`, and `l` to move around in vim. I used `l` because it moves the cursor to the right by 1 each press. I pressed `l` 5 times to get to 1. So far we have `vim ListExamples.java <enter> / i n d e x 1 <enter> n n n n n n n n n l l l l l`.
-<br>
+<br><br>
+![image](IMG11.png)
+<br><br>
+Now to delete the 1, I pressed `x`. We learned in class that `x` deletes whatever character the cursor is on.
