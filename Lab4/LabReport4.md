@@ -64,4 +64,12 @@ Now that we corrected the mistake, we can exit out of vim to finish this step. I
 <br><br>
 Now that we are in normal mode, we press `:` and then type `wq` and then press `<enter>`.
 <br><br>
+![image](IMG15.png)
+<br><br>
+![image](IMG16.png)
+<br><br> 
+The image above displays what happens after we pressed `<enter>`.<br>
+**Explanation:** Now to explaing what the commands above did; as mentioned before, when we pressed `i`, we were taken into insert mode, meaning we can edit the text. To exit that mode, we had to press `ESC` to go into normal mode. Then when we were in normal mode, we pressed `:` which takes us into command line mode. Once we were into command line mode, we typed in `wq`. `w` means "write" (aka save) in vim and q means "quit". So when we pair `w` and `q` and then press `<enter>`, it basically means "save and quit". Hence why we were back at the home terminal after pressing `<enter>`.
+
+
 
