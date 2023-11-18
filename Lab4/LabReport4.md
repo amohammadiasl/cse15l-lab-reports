@@ -102,4 +102,12 @@ What's interesting t note is that this isn't just any random page opened by the 
 <br><br>
 ![Image](IMG20.png)
 <br><br>
-My commit message was "Changed ListExamples.java". Commit messages typically exaplain the modification that has been made. 
+My commit message was "Changed ListExamples.java". Commit messages typically exaplain the modification that has been made. After typing in a commit message, we follow the same steps as before to exit vim; press `<ESC>` then press `:` and type `wq` then press `<enter>`. This takes us back to the terminal. 
+<br><br>
+![Image](IMG21.png)
+<br><br>
+Finally, we can type `git push` in the terminal and then press `<enter>` to push the staged changed into Github.
+<br><br>
+![Image](IMG22.png)
+
+
