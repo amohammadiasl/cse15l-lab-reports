@@ -40,3 +40,7 @@ Now, we have to remember, the error in the code is just that `index1` is used in
 ![image](IMG8.png) 
 <br><br>
 As we see in the image, it found the first occurrence of `index1`. Now, that specific occurrence of `index1` is not the one we are particularly looking for. But nothing to worry as we can press `n` to go to the next occurrence of `index1`.  
+<br><br>
+![image](IMG9.png)
+<br><br>
+After pressing `n` 9 times, we are on the desired occurrence of `index1`. So far, what he have in this step if `vim ListExamples.java <enter> / i n d e x 1 <enter> n n n n n n n n n` (I separated them by a space to make it easier to read). Now that we are at the desired word, we need to edit the 1 and turn it into a 2.
