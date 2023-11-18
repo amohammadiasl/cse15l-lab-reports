@@ -99,3 +99,7 @@ As we can see in the image, `ListExamples.java` is staged to be committed. Next 
 ![Image](IMG19.png)
 <br><br>
 What's interesting t note is that this isn't just any random page opened by the terminal, it's vim. Remembering how we can add text in vim, we press `i` to enter insert mode, and type a commit message.
+<br><br>
+![Image](IMG20.png)
+<br><br>
+My commit message was "Changed ListExamples.java". Commit messages typically exaplain the modification that has been made. 
