@@ -1,7 +1,7 @@
 # Lab report 4
 ### Step 1: Log into ieng6
 ##### SSH into my username
-I typed in "ssh" and then my username to log onto ieng6. 
+I typed in "ssh" and then my username to log onto ieng6. <br>
 <br>
 ![image](IMG1.png) 
 <br>
