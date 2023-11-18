@@ -35,4 +35,8 @@ This is the terminal after I pressed `<enter>`.
 ![image](IMG7.png)
 <br><br>
 Now, we have to remember, the error in the code is just that `index1` is used instead of `index2` in the final loop in `merge`. So what I am going to do is to search for the word `index1` and skip through until I find the correct one. <br>
-**How? :** I press `ESC` to make sure that I am in normal mode, then I press `/` and then I type `index1`.
+**How? :** I press `ESC` to make sure that I am in normal mode, then I press `/` and then I type `index1`. As we learned in class, `/<text>` searches for a keyword. The forward-slash is basically the search command and the text after it is the keyword that it will look for. We also should not forget to press `<enter>` to lock in our word, `index1`. 
+<br><br>
+![image](IMG8.png) 
+<br><br>
+As we see in the image, it found the first occurrence of `index1`. Now, that specific occurrence of `index1` is not the one we are particularly looking for. But nothing to worry as we can press `n` to go to the next occurrence of `index1`.  
