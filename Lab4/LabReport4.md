@@ -11,4 +11,7 @@ I was prompted to enter my passowrd although I already have my save key (I am gu
 <br>
 I entered my password and was able to successfully log into ieng6.
 <br>
-### Step 2: Clone the fork using the `SSH` link
+### Step 2: Clone the fork using the `SSH` link <br>
+![image](IMG3.png) 
+<br>
+I copied the `SSH` URL from my forked repo, and the used `git clone` with that URL to clone the repository.
