@@ -34,3 +34,5 @@ This is the terminal after I pressed `<enter>`.
 <br> <br>
 ![image](IMG7.png)
 <br><br>
+Now, we have to remember, the error in the code is just that `index1` is used instead of `index2` in the final loop in `merge`. So what I am going to do is to search for the word `index1` and skip through until I find the correct one. <br>
+**How? :** I press `ESC` to make sure that I am in normal mode, then I press `/` and then I type `index1`.
