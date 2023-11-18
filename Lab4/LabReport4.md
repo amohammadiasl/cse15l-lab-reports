@@ -1,6 +1,6 @@
 # Lab report 4
 ### Step 1: Log into ieng6
-##### SSH into my username
+#### SSH into my username
 I typed in "ssh" and then my username to log onto ieng6. <br>
 <br>
 ![image](IMG1.png) 
@@ -10,3 +10,5 @@ I was prompted to enter my passowrd although I already have my save key (I am gu
 ![Image](IMG2.png) 
 <br>
 I entered my password and was able to successfully log into ieng6.
+<br>
+### Step 2: Clone the fork using the `SSH` link
