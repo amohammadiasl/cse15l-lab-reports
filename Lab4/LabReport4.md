@@ -98,3 +98,4 @@ As we can see in the image, `ListExamples.java` is staged to be committed. Next 
 <br><br>
 ![Image](IMG19.png)
 <br><br>
+What's interesting t note is that this isn't just any random page opened by the terminal, it's vim. Remembering how we can add text in vim, we press `i` to enter insert mode, and type a commit message.
