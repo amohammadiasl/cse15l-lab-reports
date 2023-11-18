@@ -25,3 +25,4 @@ In this step, I typed in `ls` and pressed `<enter>` to display the files in the 
 ![Image](IMG5A.png)
 <br>
 As displayed in the image above, there is 1 failure after running the 2 tests. 
+### Step 4: Edit the code to fix the failing test
