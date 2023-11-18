@@ -26,3 +26,6 @@ In this step, I typed in `ls` and pressed `<enter>` to display the files in the 
 <br>
 As displayed in the image above, there is 1 failure after running the 2 tests. 
 ### Step 4: Edit the code to fix the failing test
+To edit the code, I used the built-in text editor, Vim. I typed `Vim ListExamples.java` into the terminal then pressed `<enter>`.
+<br> <br>
+![Image](IMG6.png)
