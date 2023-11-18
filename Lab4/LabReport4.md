@@ -54,11 +54,11 @@ Now to delete the 1, I pressed `x`. We learned in class that `x` deletes whateve
 <br><br>
 ![image](IMG12.png)
 <br><br> 
-Now that the 1 is deleted, I pressed `i` to go into insert mode.
+Now that the 1 is deleted, I pressed `i` to go into insert mode. Once we are in insert mode, we can type 2. 
 <br><br>
 ![image](IMG13.png)
 <br><br>
-Now that we corrected the mistake, we can exit out of vim to finish this step. In order to do so, first we need to press `ESC` to go back into normal mode, then we press `:` and type in `wq` and then press `<enter>`. 
+Now that we corrected the mistake, we can exit out of vim to finish this step. In order to do so, first we need to press `<ESC>` to go back into normal mode, then we press `:` and type in `wq` and then press `<enter>`. 
 <br><br>
 ![image](IMG14.png)
 <br><br>
@@ -69,7 +69,8 @@ Now that we are in normal mode, we press `:` and then type `wq` and then press `
 ![image](IMG16.png)
 <br><br> 
 The image above displays what happens after we pressed `<enter>`.<br>
-**Explanation:** Now to explaing what the commands above did; as mentioned before, when we pressed `i`, we were taken into insert mode, meaning we can edit the text. To exit that mode, we had to press `ESC` to go into normal mode. Then when we were in normal mode, we pressed `:` which takes us into command line mode. Once we were into command line mode, we typed in `wq`. `w` means "write" (aka save) in vim and q means "quit". So when we pair `w` and `q` and then press `<enter>`, it basically means "save and quit". Hence why we were back at the home terminal after pressing `<enter>`.
+**Explanation:** Now to explaing what the commands above did; as mentioned before, when we pressed `i`, we were taken into insert mode, meaning we can edit the text. To exit that mode, we had to press `<ESC>` to go into normal mode. Then when we were in normal mode, we pressed `:` which takes us into command line mode. Once we were into command line mode, we typed in `wq`. `w` means "write" (aka save) in vim and q means "quit". So when we pair `w` and `q` and then press `<enter>`, it basically means "save and quit". Hence why we were back at the home terminal after pressing `<enter>`. <br>
+So at the end of this step, the keys we pressed were: `v i m L i s t E x a m p l e s . j a v a <enter> / i n d e x 1 <enter> n n n n n n n n n l l l l l x i 2 <ESC> : w q <enter>`
 
 
 
