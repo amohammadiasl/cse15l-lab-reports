@@ -29,3 +29,8 @@ As displayed in the image above, there is 1 failure after running the 2 tests.
 To edit the code, I used the built-in text editor, Vim. I typed `Vim ListExamples.java` into the terminal then pressed `<enter>`.
 <br> <br>
 ![Image](IMG6.png)
+<br> <br>
+This is the terminal after I pressed `<enter>`.
+<br> <br>
+![image](IMG7.png)
+<br><br>
