@@ -94,3 +94,7 @@ In this step, we have to add the modified file (ListExamples.java), commit, and 
 <br><br>
 ![Image](IMG18.png)
 <br><br>
+As we can see in the image, `ListExamples.java` is staged to be committed. Next we type `git commit` and press `<entern>`. This takes us to another page on our terminal, asking for a commit message. 
+<br><br>
+![Image](IMG19.png)
+<br><br>
