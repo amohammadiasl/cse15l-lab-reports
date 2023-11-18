@@ -13,3 +13,8 @@ I was prompted to enter my passowrd although I already have my save key (I am gu
 ![image](IMG3.png) 
 <br>
 I copied the `SSH` URL from my forked repo on Github, using `<Ctrl>` `c`, and the typed `git clone` into the terminal and pasted the URL with `<Ctrl>` `v` and finally pressed `<enter>` to clone the repository.
+<br>
+<br>
+![Image](IMG4.png)
+<br>
+I then typed `cd` and `lab7` and pressed `<enter>` to change into the lab7 directory.
