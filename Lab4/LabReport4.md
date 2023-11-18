@@ -82,6 +82,9 @@ So at the end of this step, the keys we pressed were: `v i m L i s t E x a m p l
 
 ### Step 5: Run the tests to demonstrate their correctness
 
-
-
+Following the exact steps as step 3, we type `bash test.sh` into the terminal and press `<enter>`.
+<br><br>
+![Image](IMG17)
+<br><br>
+As displayed in the image above, the tests did run successfully this time. 
 
