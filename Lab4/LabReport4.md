@@ -84,7 +84,13 @@ So at the end of this step, the keys we pressed were: `v i m L i s t E x a m p l
 
 Following the exact steps as step 3, we type `bash test.sh` into the terminal and press `<enter>`.
 <br><br>
-![Image](IMG17)
+![Image](IMG17.png)
 <br><br>
 As displayed in the image above, the tests did run successfully this time. 
 
+### Step 6: Commit and push to Github
+
+In this step, we have to add the modified file (ListExamples.java), commit, and then push itt to Github. First, I started by typing `git add ListExamples.java` and then pressed `<enter>`. Now the file is staged. In order to double check that the desired file is staged, we can type `git status` and the press `<enter>`. 
+<br><br>
+![Image](IMG18.png)
+<br><br>
