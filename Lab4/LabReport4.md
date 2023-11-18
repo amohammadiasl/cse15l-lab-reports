@@ -51,3 +51,8 @@ Notice that currently, we are on the "i" of `index1`and we need to relocate our 
 ![image](IMG11.png)
 <br><br>
 Now to delete the 1, I pressed `x`. We learned in class that `x` deletes whatever character the cursor is on.
+<br><br>
+![image](IMG12.png)
+<br><br> 
+Now that the 1 is deleted, I pressed `i` to go into insert mode.
+![image](IMG13.png)
