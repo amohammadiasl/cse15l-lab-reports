@@ -51,9 +51,11 @@ public void testReverseVowels1() {
         assertEquals(expected, solution.reverseVowels(input));
     }
 ```
+I wrote a test case that takes the string "Hello World!" and is supposed to return "Hollo Werld!". However, my function returns a string that looks nothing like this at all. My guess is that I am swapping the characters at the wrong time and I made a mistake in some part of my logic, however, I can not figure out what part. I also looked at my `isVowel` method and I believe it looks correct. <br>
 Can i please get some help on what could be possibly going wrong? 
 Thank you!
 
 #### EdStem TA respone: Re- Error when testing the reverse vowels method!
-Dear student, I was able to take a look at your `testReverseVowels1` method and it looks correct so that eliminates one source for the problem. My hint to you is to look within the reverseVowels method, and carefully observe the conditions in the inner while loops where vowel checking takes place. Consider the role of these conditions in determining when to move the start and end pointers. Pay attention to how the loop logic should respond to vowels and non-vowels. In other words, when do we move the right pointer and when do we right the left pointer with respect to a `Char` being a vowel or not being a vowel. <br>
+Dear student, I was able to take a look at your `testReverseVowels1` method and it looks correct so that eliminates one source for the problem. The `isVowels` method is also correct as it checks for every lower and upper case vowel. This narrows down the problem to the logic of the `reverseVowels` function. My hint to you is to look within the reverseVowels method, and carefully observe the conditions in the inner while loops where vowel checking takes place. Consider the role of these conditions in determining when to move the start and end pointers. Pay attention to how the loop logic should respond to vowels and non-vowels. In other words, when do we move the right pointer and when do we right the left pointer with respect to a `Char` being a vowel or not being a vowel. <br>
+Lastly, I wanted you to notice how I went about potentially finding the bug in the code. A method that always helps is to eliminate different factors that could potentially be casuing problems, narrowing down the source of the problem. <br>
 Let me know if that helps!
