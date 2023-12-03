@@ -6,3 +6,12 @@
 
 #### EdStem thread: Error when testing the reverse vowels method!
 ![Image](bash.png)
+<br> 
+Below you can find my code for the reverse vowels method as well as the code for my testing method.
+
+![Image](RW.png)
+<br>
+<br>
+![Image](RWT.png)
+<br>
+<br>
