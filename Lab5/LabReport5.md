@@ -55,4 +55,5 @@ Can i please get some help on what could be possibly going wrong?
 Thank you!
 
 #### EdStem TA respone: Re- Error when testing the reverse vowels method!
-Dear student, I was able to take a look at your `testReverseVowels1` method and it looks correct so that eliminates one source for the problem. 
+Dear student, I was able to take a look at your `testReverseVowels1` method and it looks correct so that eliminates one source for the problem. My hint to you is to look within the reverseVowels method, and carefully observe the conditions in the inner while loops where vowel checking takes place. Consider the role of these conditions in determining when to move the start and end pointers. Pay attention to how the loop logic should respond to vowels and non-vowels. In other words, when do we move the right pointer and when do we right the left pointer with respect to a `Char` being a vowel or not being a vowel. <br>
+Let me know if that helps!
