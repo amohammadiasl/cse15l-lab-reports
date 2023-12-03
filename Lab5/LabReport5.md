@@ -61,4 +61,86 @@ Lastly, I wanted you to notice how I went about potentially finding the bug in t
 Let me know if that helps!
 <br>
 ### EdStem Student respone: Error fixed!
+Dear TA, thank you for the hint! I was able to get the function working! Below I have attached the screenshot of what I fixed as well as the successful test! 
+<br> 
+![Image](WorkingBash.png)
+<br>
+<br>
+![Image](FixedCode.png)
+<br><br> 
+My file directory structure looks like: <br>
+-Lab5 <br>
+--Lib <br>
+--reverseVowels.java <br>
+--reverseVowelsTests.java <br>
+--test.sh <br>
+<br>
+The `Lib` file includes the `Junit` library that is required for conducting `Junit` tests. The code for `reverseVowels.java`, `reverseVowelsTests.java`, and `test.sh` can be found below in respective order. <br>
+```java
+class Solution {
 
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+    }
+
+    boolean isVowel(char c) {
+        return c == 'a' || c == 'i' || c == 'e' || c == 'o' || c == 'u'
+            || c == 'A' || c == 'I' || c == 'E' || c == 'O' || c == 'U';
+    }
+    
+    void swap(char[] chars, int x, int y) {
+        char temp = chars[x];
+        chars[x] = chars[y];
+        chars[y] = temp;
+    }
+    
+    public String reverseVowels(String s) {
+        int start = 0;
+        int end = s.length() - 1;
+
+        char[] sChar = s.toCharArray();
+        
+        while (start < end) {
+            
+            while (start < s.length () && !isVowel(sChar[start])) {
+                start++;
+            }
+
+            while (end >= 0 && !isVowel(sChar[end])) {
+                end--;
+            }
+
+            if (start < end) {
+                swap(sChar, start++, end--);
+            }
+        }
+        
+
+        return new String(sChar);
+    }
+};
+```
+<br>
+
+```java
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class reverseVowelsTests {
+
+    @Test(timeout = 500)
+    public void testReverseVowels1() {
+        Solution solution = new Solution();
+        String input = "Hello World!";
+        String expected = "Hollo Werld!";
+        assertEquals(expected, solution.reverseVowels(input));
+    }
+
+}
+```
+<br>
+
+```bash
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore reverseVowelsTests
+```
