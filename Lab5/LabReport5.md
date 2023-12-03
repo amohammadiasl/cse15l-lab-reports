@@ -144,3 +144,6 @@ public class reverseVowelsTests {
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore reverseVowelsTests
 ```
+<br>
+
+I was having that bug because of an incorrect logic in my inner loop statements. Initially, I was chwecking whether the current character is a vowel, and if that was true, I was moving the left pointer right by one and moving the right pointer left by one. This makes the logic incorrect because it would essentially skip over the vowel and swap the non-vowel characters. I simply had to add a `!` to fix the logic. This time, the inner loops would actually stop when the left and the right pointer are both at a vowel, and then we would be able to swap those two vowels. 
