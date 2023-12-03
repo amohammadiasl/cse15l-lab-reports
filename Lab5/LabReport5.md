@@ -1,5 +1,5 @@
 # Lab Report 5
-## EdStem thread: reverse vowels assigment:
+## Part1, EdStem thread: reverse vowels assigment:
 ### The goal of this assignment is to write a fucntion that takes a string, and reverses the order of all the vowels in there (e.g hello -> holle).
 
 <br>
@@ -146,4 +146,12 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 <br>
 
-I was having that bug because of an incorrect logic in my inner loop statements. Initially, I was chwecking whether the current character is a vowel, and if that was true, I was moving the left pointer right by one and moving the right pointer left by one. This makes the logic incorrect because it would essentially skip over the vowel and swap the non-vowel characters. I simply had to add a `!` to fix the logic. This time, the inner loops would actually stop when the left and the right pointer are both at a vowel, and then we would be able to swap those two vowels. 
+I was having that bug because of an incorrect logic in my inner loop statements. I simpley used `bash test.sh` to run the test example and received the bug. Initially, I was chwecking whether the current character is a vowel, and if that was true, I was moving the left pointer right by one and moving the right pointer left by one. This makes the logic incorrect because it would essentially skip over the vowel and swap the non-vowel characters. I simply had to add a `!` to fix the logic. This time, the inner loops would actually stop when the left and the right pointer are both at a vowel, and then we would be able to swap those two vowels. 
+<br>
+## Part 2
+What I found extremly helpful in the second half of the course, was the Vim lab. I had always heard one of my friends talking about how powerful Vim is and he always encouraged me to move to Vim rather than VS Code, and using it in the lab really helped me understand just how powerful it really is. I am in no way an expert in Vim right now, however, I can see how useful it can be and I am going to continue learning and mastering Vim outside of this course. Vim can be very complicated and hard to get used to, however, I believe in the long run, it will be a very powerful tool to know about. 
+<br>
+## Sources 
+Leetcode 345
+<br> 
+The problem I used for this post was an actual problem one of my friends encountered while doing this leetcode problem. I tried to mimic how I actually helped my friend without giving too many hints so that he would actually be able to realize why the problem is caused. 
